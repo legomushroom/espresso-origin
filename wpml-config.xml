@@ -1,0 +1,37 @@
+<wpml-config>
+	<custom-fields>
+
+		<custom-field action="translate">vw_review_cons</custom-field>
+		<custom-field action="translate">vw_review_pros</custom-field>
+		<custom-field action="translate">vw_review_summary</custom-field>
+		<custom-field action="translate">vw_review_score_1_label</custom-field>
+		<custom-field action="translate">vw_review_score_2_label</custom-field>
+		<custom-field action="translate">vw_review_score_3_label</custom-field>
+		<custom-field action="translate">vw_review_score_4_label</custom-field>
+		<custom-field action="translate">vw_review_score_5_label</custom-field>
+		<custom-field action="translate">vw_review_score_6_label</custom-field>
+		<custom-field action="translate">vw_review_score_7_label</custom-field>
+		<custom-field action="translate">vw_review_score_8_label</custom-field>
+		<custom-field action="translate">vw_review_score_9_label</custom-field>
+		<custom-field action="translate">vw_review_score_10_label</custom-field>
+
+		<custom-field action="translate">vwspc_section_1_title</custom-field>
+		<custom-field action="translate">vwspc_section_2_title</custom-field>
+		<custom-field action="translate">vwspc_section_3_title</custom-field>
+		<custom-field action="translate">vwspc_section_4_title</custom-field>
+		<custom-field action="translate">vwspc_section_5_title</custom-field>
+		<custom-field action="translate">vwspc_section_6_title</custom-field>
+		<custom-field action="translate">vwspc_section_7_title</custom-field>
+		<custom-field action="translate">vwspc_section_8_title</custom-field>
+		<custom-field action="translate">vwspc_section_9_title</custom-field>
+		<custom-field action="translate">vwspc_section_10_title</custom-field>
+
+		<custom-field action="ignore">date-added</custom-field>
+	</custom-fields>
+
+	<admin-texts>
+		<key name="vw_espresso">
+			<key name="copyright_text" />
+		</key> 
+	</admin-texts>
+</wpml-config>

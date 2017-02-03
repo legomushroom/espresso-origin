@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head><!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <meta charset="UTF-8"><style>/*
+ * Bootstrap v2.2.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: #fff;
+}
+a {
+  color: #08c;
+  text-decoration: none;
+}
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.row:after {
+  clear: both;
+}
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+}
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 940px;
+}
+.span12 {
+  width: 940px;
+}
+.span11 {
+  width: 860px;
+}
+.span10 {
+  width: 780px;
+}
+.span9 {
+  width: 700px;
+}
+.span8 {
+  width: 620px;
+}
+.span7 {
+  width: 540px;
+}
+.span6 {
+  width: 460px;
+}
+.span5 {
+  width: 380px;
+}
+.span4 {
+  width: 300px;
+}
+.span3 {
+  width: 220px;
+}
+.span2 {
+  width: 140px;
+}
+.span1 {
+  width: 60px;
+}
+[class*="span"].pull-right,
+.row-fluid [class*="span"].pull-right {
+  float: right;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+.container:before,
+.container:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.container:after {
+  clear: both;
+}
+p {
+  margin: 0 0 10px;
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+small {
+  font-size: 85%;
+}
+h1 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999;
+}
+h1 {
+  line-height: 40px;
+}
+h1 {
+  font-size: 38.5px;
+}
+h1 small {
+  font-size: 24.5px;
+}
+body {
+  margin-top: 90px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -480px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+  z-index: 10;
+}
+.footer {
+  color: #ddd;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer a {
+  color: #ccc;
+  text-decoration: underline;
+}
+.the-icons {
+  font-size: 14px;
+  line-height: 24px;
+}
+.switch {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  color: #666;
+}
+.switch input {
+  margin-right: 0.3em;
+}
+.codesOn .i-name {
+  display: none;
+}
+.codesOn .i-code {
+  display: inline;
+}
+.i-code {
+  display: none;
+}
+</style>
+    <link rel="stylesheet" href="css/zocial.css">
+    <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/zocial-ie7.css"><![endif]-->
+    <script>
+      function toggleCodes(on) {
+        var obj = document.getElementById('icons');
+        
+        if (on) {
+          obj.className += ' codesOn';
+        } else {
+          obj.className = obj.className.replace(' codesOn', '');
+        }
+      }
+      
+    </script>
+  </head>
+  <body>
+    <div class="container header">
+      <h1>
+        zocial
+         <small>font demo</small>
+      </h1>
+      <label class="switch">
+        <input type="checkbox" onclick="toggleCodes(this.checked)">show codes
+      </label>
+    </div>
+    <div id="icons" class="container">
+      <div class="row">
+        <div title="Code: 0xe800" class="the-icons span3"><i class="icon-social-duckduckgo"></i> <span class="i-name">icon-social-duckduckgo</span><span class="i-code">0xe800</span></div>
+        <div title="Code: 0xe801" class="the-icons span3"><i class="icon-social-aim"></i> <span class="i-name">icon-social-aim</span><span class="i-code">0xe801</span></div>
+        <div title="Code: 0xe802" class="the-icons span3"><i class="icon-social-delicious"></i> <span class="i-name">icon-social-delicious</span><span class="i-code">0xe802</span></div>
+        <div title="Code: 0xe803" class="the-icons span3"><i class="icon-social-paypal"></i> <span class="i-name">icon-social-paypal</span><span class="i-code">0xe803</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe804" class="the-icons span3"><i class="icon-social-flattr"></i> <span class="i-name">icon-social-flattr</span><span class="i-code">0xe804</span></div>
+        <div title="Code: 0xe805" class="the-icons span3"><i class="icon-social-android"></i> <span class="i-name">icon-social-android</span><span class="i-code">0xe805</span></div>
+        <div title="Code: 0xe806" class="the-icons span3"><i class="icon-social-eventful"></i> <span class="i-name">icon-social-eventful</span><span class="i-code">0xe806</span></div>
+        <div title="Code: 0xe807" class="the-icons span3"><i class="icon-social-smashmag"></i> <span class="i-name">icon-social-smashmag</span><span class="i-code">0xe807</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe808" class="the-icons span3"><i class="icon-social-gplus"></i> <span class="i-name">icon-social-gplus</span><span class="i-code">0xe808</span></div>
+        <div title="Code: 0xe809" class="the-icons span3"><i class="icon-social-wikipedia"></i> <span class="i-name">icon-social-wikipedia</span><span class="i-code">0xe809</span></div>
+        <div title="Code: 0xe80a" class="the-icons span3"><i class="icon-social-lanyrd"></i> <span class="i-name">icon-social-lanyrd</span><span class="i-code">0xe80a</span></div>
+        <div title="Code: 0xe80b" class="the-icons span3"><i class="icon-social-calendar"></i> <span class="i-name">icon-social-calendar</span><span class="i-code">0xe80b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe80c" class="the-icons span3"><i class="icon-social-stumbleupon"></i> <span class="i-name">icon-social-stumbleupon</span><span class="i-code">0xe80c</span></div>
+        <div title="Code: 0xe80d" class="the-icons span3"><i class="icon-social-fivehundredpx"></i> <span class="i-name">icon-social-fivehundredpx</span><span class="i-code">0xe80d</span></div>
+        <div title="Code: 0xe80e" class="the-icons span3"><i class="icon-social-pinterest"></i> <span class="i-name">icon-social-pinterest</span><span class="i-code">0xe80e</span></div>
+        <div title="Code: 0xe80f" class="the-icons span3"><i class="icon-social-bitcoin"></i> <span class="i-name">icon-social-bitcoin</span><span class="i-code">0xe80f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe810" class="the-icons span3"><i class="icon-social-w3c"></i> <span class="i-name">icon-social-w3c</span><span class="i-code">0xe810</span></div>
+        <div title="Code: 0xe811" class="the-icons span3"><i class="icon-social-foursquare"></i> <span class="i-name">icon-social-foursquare</span><span class="i-code">0xe811</span></div>
+        <div title="Code: 0xe812" class="the-icons span3"><i class="icon-social-html5"></i> <span class="i-name">icon-social-html5</span><span class="i-code">0xe812</span></div>
+        <div title="Code: 0xe813" class="the-icons span3"><i class="icon-social-ie"></i> <span class="i-name">icon-social-ie</span><span class="i-code">0xe813</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe814" class="the-icons span3"><i class="icon-social-call"></i> <span class="i-name">icon-social-call</span><span class="i-code">0xe814</span></div>
+        <div title="Code: 0xe815" class="the-icons span3"><i class="icon-social-grooveshark"></i> <span class="i-name">icon-social-grooveshark</span><span class="i-code">0xe815</span></div>
+        <div title="Code: 0xe816" class="the-icons span3"><i class="icon-social-ninetyninedesigns"></i> <span class="i-name">icon-social-ninetyninedesigns</span><span class="i-code">0xe816</span></div>
+        <div title="Code: 0xe817" class="the-icons span3"><i class="icon-social-forrst"></i> <span class="i-name">icon-social-forrst</span><span class="i-code">0xe817</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe818" class="the-icons span3"><i class="icon-social-digg"></i> <span class="i-name">icon-social-digg</span><span class="i-code">0xe818</span></div>
+        <div title="Code: 0xe819" class="the-icons span3"><i class="icon-social-spotify"></i> <span class="i-name">icon-social-spotify</span><span class="i-code">0xe819</span></div>
+        <div title="Code: 0xe81a" class="the-icons span3"><i class="icon-social-reddit"></i> <span class="i-name">icon-social-reddit</span><span class="i-code">0xe81a</span></div>
+        <div title="Code: 0xe81b" class="the-icons span3"><i class="icon-social-guest"></i> <span class="i-name">icon-social-guest</span><span class="i-code">0xe81b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe81c" class="the-icons span3"><i class="icon-social-gowalla"></i> <span class="i-name">icon-social-gowalla</span><span class="i-code">0xe81c</span></div>
+        <div title="Code: 0xe81d" class="the-icons span3"><i class="icon-social-appstore"></i> <span class="i-name">icon-social-appstore</span><span class="i-code">0xe81d</span></div>
+        <div title="Code: 0xe81e" class="the-icons span3"><i class="icon-social-blogger"></i> <span class="i-name">icon-social-blogger</span><span class="i-code">0xe81e</span></div>
+        <div title="Code: 0xe81f" class="the-icons span3"><i class="icon-social-cc"></i> <span class="i-name">icon-social-cc</span><span class="i-code">0xe81f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe820" class="the-icons span3"><i class="icon-social-dribbble"></i> <span class="i-name">icon-social-dribbble</span><span class="i-code">0xe820</span></div>
+        <div title="Code: 0xe821" class="the-icons span3"><i class="icon-social-evernote"></i> <span class="i-name">icon-social-evernote</span><span class="i-code">0xe821</span></div>
+        <div title="Code: 0xe822" class="the-icons span3"><i class="icon-social-flickr"></i> <span class="i-name">icon-social-flickr</span><span class="i-code">0xe822</span></div>
+        <div title="Code: 0xe823" class="the-icons span3"><i class="icon-social-google"></i> <span class="i-name">icon-social-google</span><span class="i-code">0xe823</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe824" class="the-icons span3"><i class="icon-social-viadeo"></i> <span class="i-name">icon-social-viadeo</span><span class="i-code">0xe824</span></div>
+        <div title="Code: 0xe825" class="the-icons span3"><i class="icon-social-instapaper"></i> <span class="i-name">icon-social-instapaper</span><span class="i-code">0xe825</span></div>
+        <div title="Code: 0xe826" class="the-icons span3"><i class="icon-social-weibo"></i> <span class="i-name">icon-social-weibo</span><span class="i-code">0xe826</span></div>
+        <div title="Code: 0xe827" class="the-icons span3"><i class="icon-social-klout"></i> <span class="i-name">icon-social-klout</span><span class="i-code">0xe827</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe828" class="the-icons span3"><i class="icon-social-linkedin"></i> <span class="i-name">icon-social-linkedin</span><span class="i-code">0xe828</span></div>
+        <div title="Code: 0xe829" class="the-icons span3"><i class="icon-social-meetup"></i> <span class="i-name">icon-social-meetup</span><span class="i-code">0xe829</span></div>
+        <div title="Code: 0xe82a" class="the-icons span3"><i class="icon-social-vk"></i> <span class="i-name">icon-social-vk</span><span class="i-code">0xe82a</span></div>
+        <div title="Code: 0xe82b" class="the-icons span3"><i class="icon-social-plancast"></i> <span class="i-name">icon-social-plancast</span><span class="i-code">0xe82b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe82c" class="the-icons span3"><i class="icon-social-disqus"></i> <span class="i-name">icon-social-disqus</span><span class="i-code">0xe82c</span></div>
+        <div title="Code: 0xe82d" class="the-icons span3"><i class="icon-social-rss"></i> <span class="i-name">icon-social-rss</span><span class="i-code">0xe82d</span></div>
+        <div title="Code: 0xe82e" class="the-icons span3"><i class="icon-social-skype"></i> <span class="i-name">icon-social-skype</span><span class="i-code">0xe82e</span></div>
+        <div title="Code: 0xe82f" class="the-icons span3"><i class="icon-social-twitter"></i> <span class="i-name">icon-social-twitter</span><span class="i-code">0xe82f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe830" class="the-icons span3"><i class="icon-social-youtube"></i> <span class="i-name">icon-social-youtube</span><span class="i-code">0xe830</span></div>
+        <div title="Code: 0xe831" class="the-icons span3"><i class="icon-social-vimeo"></i> <span class="i-name">icon-social-vimeo</span><span class="i-code">0xe831</span></div>
+        <div title="Code: 0xe832" class="the-icons span3"><i class="icon-social-windows"></i> <span class="i-name">icon-social-windows</span><span class="i-code">0xe832</span></div>
+        <div title="Code: 0xe833" class="the-icons span3"><i class="icon-social-xing"></i> <span class="i-name">icon-social-xing</span><span class="i-code">0xe833</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe834" class="the-icons span3"><i class="icon-social-yahoo"></i> <span class="i-name">icon-social-yahoo</span><span class="i-code">0xe834</span></div>
+        <div title="Code: 0xe835" class="the-icons span3"><i class="icon-social-chrome"></i> <span class="i-name">icon-social-chrome</span><span class="i-code">0xe835</span></div>
+        <div title="Code: 0xe836" class="the-icons span3"><i class="icon-social-email"></i> <span class="i-name">icon-social-email</span><span class="i-code">0xe836</span></div>
+        <div title="Code: 0xe837" class="the-icons span3"><i class="icon-social-macstore"></i> <span class="i-name">icon-social-macstore</span><span class="i-code">0xe837</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe838" class="the-icons span3"><i class="icon-social-myspace"></i> <span class="i-name">icon-social-myspace</span><span class="i-code">0xe838</span></div>
+        <div title="Code: 0xe839" class="the-icons span3"><i class="icon-social-podcast"></i> <span class="i-name">icon-social-podcast</span><span class="i-code">0xe839</span></div>
+        <div title="Code: 0xe83a" class="the-icons span3"><i class="icon-social-amazon"></i> <span class="i-name">icon-social-amazon</span><span class="i-code">0xe83a</span></div>
+        <div title="Code: 0xe83b" class="the-icons span3"><i class="icon-social-steam"></i> <span class="i-name">icon-social-steam</span><span class="i-code">0xe83b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe83c" class="the-icons span3"><i class="icon-social-cloudapp"></i> <span class="i-name">icon-social-cloudapp</span><span class="i-code">0xe83c</span></div>
+        <div title="Code: 0xe83d" class="the-icons span3"><i class="icon-social-dropbox"></i> <span class="i-name">icon-social-dropbox</span><span class="i-code">0xe83d</span></div>
+        <div title="Code: 0xe83e" class="the-icons span3"><i class="icon-social-ebay"></i> <span class="i-name">icon-social-ebay</span><span class="i-code">0xe83e</span></div>
+        <div title="Code: 0xe83f" class="the-icons span3"><i class="icon-social-facebook"></i> <span class="i-name">icon-social-facebook</span><span class="i-code">0xe83f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe840" class="the-icons span3"><i class="icon-social-github"></i> <span class="i-name">icon-social-github</span><span class="i-code">0xe840</span></div>
+        <div title="Code: 0xe841" class="the-icons span3"><i class="icon-social-github-circled"></i> <span class="i-name">icon-social-github-circled</span><span class="i-code">0xe841</span></div>
+        <div title="Code: 0xe842" class="the-icons span3"><i class="icon-social-googleplay"></i> <span class="i-name">icon-social-googleplay</span><span class="i-code">0xe842</span></div>
+        <div title="Code: 0xe843" class="the-icons span3"><i class="icon-social-itunes"></i> <span class="i-name">icon-social-itunes</span><span class="i-code">0xe843</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe844" class="the-icons span3"><i class="icon-social-plurk"></i> <span class="i-name">icon-social-plurk</span><span class="i-code">0xe844</span></div>
+        <div title="Code: 0xe845" class="the-icons span3"><i class="icon-social-songkick"></i> <span class="i-name">icon-social-songkick</span><span class="i-code">0xe845</span></div>
+        <div title="Code: 0xe846" class="the-icons span3"><i class="icon-social-lastfm"></i> <span class="i-name">icon-social-lastfm</span><span class="i-code">0xe846</span></div>
+        <div title="Code: 0xe847" class="the-icons span3"><i class="icon-social-gmail"></i> <span class="i-name">icon-social-gmail</span><span class="i-code">0xe847</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe848" class="the-icons span3"><i class="icon-social-pinboard"></i> <span class="i-name">icon-social-pinboard</span><span class="i-code">0xe848</span></div>
+        <div title="Code: 0xe849" class="the-icons span3"><i class="icon-social-openid"></i> <span class="i-name">icon-social-openid</span><span class="i-code">0xe849</span></div>
+        <div title="Code: 0xe84a" class="the-icons span3"><i class="icon-social-quora"></i> <span class="i-name">icon-social-quora</span><span class="i-code">0xe84a</span></div>
+        <div title="Code: 0xe84b" class="the-icons span3"><i class="icon-social-soundcloud"></i> <span class="i-name">icon-social-soundcloud</span><span class="i-code">0xe84b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe84c" class="the-icons span3"><i class="icon-social-tumblr"></i> <span class="i-name">icon-social-tumblr</span><span class="i-code">0xe84c</span></div>
+        <div title="Code: 0xe84d" class="the-icons span3"><i class="icon-social-eventasaurus"></i> <span class="i-name">icon-social-eventasaurus</span><span class="i-code">0xe84d</span></div>
+        <div title="Code: 0xe84e" class="the-icons span3"><i class="icon-social-wordpress"></i> <span class="i-name">icon-social-wordpress</span><span class="i-code">0xe84e</span></div>
+        <div title="Code: 0xe84f" class="the-icons span3"><i class="icon-social-yelp"></i> <span class="i-name">icon-social-yelp</span><span class="i-code">0xe84f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe850" class="the-icons span3"><i class="icon-social-intensedebate"></i> <span class="i-name">icon-social-intensedebate</span><span class="i-code">0xe850</span></div>
+        <div title="Code: 0xe851" class="the-icons span3"><i class="icon-social-eventbrite"></i> <span class="i-name">icon-social-eventbrite</span><span class="i-code">0xe851</span></div>
+        <div title="Code: 0xe852" class="the-icons span3"><i class="icon-social-scribd"></i> <span class="i-name">icon-social-scribd</span><span class="i-code">0xe852</span></div>
+        <div title="Code: 0xe853" class="the-icons span3"><i class="icon-social-posterous"></i> <span class="i-name">icon-social-posterous</span><span class="i-code">0xe853</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe854" class="the-icons span3"><i class="icon-social-stripe"></i> <span class="i-name">icon-social-stripe</span><span class="i-code">0xe854</span></div>
+        <div title="Code: 0xe855" class="the-icons span3"><i class="icon-social-opentable"></i> <span class="i-name">icon-social-opentable</span><span class="i-code">0xe855</span></div>
+        <div title="Code: 0xe856" class="the-icons span3"><i class="icon-social-cart"></i> <span class="i-name">icon-social-cart</span><span class="i-code">0xe856</span></div>
+        <div title="Code: 0xe857" class="the-icons span3"><i class="icon-social-print"></i> <span class="i-name">icon-social-print</span><span class="i-code">0xe857</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe858" class="the-icons span3"><i class="icon-social-angellist"></i> <span class="i-name">icon-social-angellist</span><span class="i-code">0xe858</span></div>
+        <div title="Code: 0xe859" class="the-icons span3"><i class="icon-social-instagram"></i> <span class="i-name">icon-social-instagram</span><span class="i-code">0xe859</span></div>
+        <div title="Code: 0xe85a" class="the-icons span3"><i class="icon-social-dwolla"></i> <span class="i-name">icon-social-dwolla</span><span class="i-code">0xe85a</span></div>
+        <div title="Code: 0xe85b" class="the-icons span3"><i class="icon-social-appnet"></i> <span class="i-name">icon-social-appnet</span><span class="i-code">0xe85b</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe85c" class="the-icons span3"><i class="icon-social-statusnet"></i> <span class="i-name">icon-social-statusnet</span><span class="i-code">0xe85c</span></div>
+        <div title="Code: 0xe85d" class="the-icons span3"><i class="icon-social-acrobat"></i> <span class="i-name">icon-social-acrobat</span><span class="i-code">0xe85d</span></div>
+        <div title="Code: 0xe85e" class="the-icons span3"><i class="icon-social-drupal"></i> <span class="i-name">icon-social-drupal</span><span class="i-code">0xe85e</span></div>
+        <div title="Code: 0xe85f" class="the-icons span3"><i class="icon-social-buffer"></i> <span class="i-name">icon-social-buffer</span><span class="i-code">0xe85f</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe860" class="the-icons span3"><i class="icon-social-pocket"></i> <span class="i-name">icon-social-pocket</span><span class="i-code">0xe860</span></div>
+        <div title="Code: 0xe861" class="the-icons span3"><i class="icon-social-bitbucket"></i> <span class="i-name">icon-social-bitbucket</span><span class="i-code">0xe861</span></div>
+        <div title="Code: 0xe862" class="the-icons span3"><i class="icon-social-lego"></i> <span class="i-name">icon-social-lego</span><span class="i-code">0xe862</span></div>
+        <div title="Code: 0xe863" class="the-icons span3"><i class="icon-social-login"></i> <span class="i-name">icon-social-login</span><span class="i-code">0xe863</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xe864" class="the-icons span3"><i class="icon-social-stackoverflow"></i> <span class="i-name">icon-social-stackoverflow</span><span class="i-code">0xe864</span></div>
+        <div title="Code: 0xe865" class="the-icons span3"><i class="icon-social-hackernews"></i> <span class="i-name">icon-social-hackernews</span><span class="i-code">0xe865</span></div>
+        <div title="Code: 0xe866" class="the-icons span3"><i class="icon-social-lkdto"></i> <span class="i-name">icon-social-lkdto</span><span class="i-code">0xe866</span></div>
+      </div>
+    </div>
+    <div class="container footer">Generated by <a href="http://fontello.com">fontello.com</a></div>
+  </body>
+</html>

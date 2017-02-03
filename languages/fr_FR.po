@@ -1,0 +1,651 @@
+# Copyright (C) 2014 envirra
+# This file is distributed under the GPL.
+msgid ""
+msgstr ""
+"Project-Id-Version: BlackMag 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2016-01-20 23:25+0700\n"
+"PO-Revision-Date: 2016-01-20 23:28+0700\n"
+"Last-Translator: envirra <envirra@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:19
+msgid ""
+"The page you were looking for appears to have been moved, deleted or does "
+"not exist."
+msgstr ""
+
+#: archive.php:13
+msgid "Author Archive"
+msgstr ""
+
+#: archive.php:26
+msgid "Posts In Category"
+msgstr "Posts In Category TRANSLATED"
+
+#: archive.php:38
+msgid "Post Archive"
+msgstr ""
+
+#: archive.php:47
+msgid "Posts Tagged"
+msgstr ""
+
+#: bbpress/loop-forums.php:27 bbpress/loop-single-forum.php:53
+msgid "Topics"
+msgstr ""
+
+#: bbpress/loop-forums.php:27 bbpress/loop-single-topic.php:90
+#: bbpress/loop-topics.php:20
+msgid "Replies"
+msgstr ""
+
+#: bbpress/loop-forums.php:27 bbpress/loop-single-forum.php:54
+#: bbpress/loop-single-topic.php:90 bbpress/loop-topics.php:20
+msgid "Posts"
+msgstr ""
+
+#: bbpress/loop-forums.php:28 bbpress/loop-topics.php:21
+msgid "Freshness"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:64
+msgid "Started by: %1$s"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:72
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:89 bbpress/loop-topics.php:20
+msgid "Voices"
+msgstr ""
+
+#: bbpress/loop-topics.php:19
+msgid "Topic"
+msgstr ""
+
+#: comments.php:16
+msgid "No Comment"
+msgstr ""
+
+#: comments.php:16
+msgid "<span>1</span> Comment"
+msgstr ""
+
+#: comments.php:16
+msgid "<span>%</span> Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "Name (required)"
+msgstr ""
+
+#: comments.php:44
+msgid "E-Mail (required)"
+msgstr ""
+
+#: comments.php:45
+msgid "Website"
+msgstr ""
+
+#: comments.php:51
+msgid "Leave a reply"
+msgstr ""
+
+#: comments.php:53
+msgid "Submit comment"
+msgstr ""
+
+#: functions.php:381
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:381
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:389
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/breadcrumb.php:29
+msgid "<span class=\"vw-breadcrumb-separator\">&raquo;</span>"
+msgstr ""
+
+#: inc/breadcrumb.php:61 inc/breadcrumb.php:66
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb.php:144 inc/breadcrumb.php:147 inc/breadcrumb.php:150
+msgid "Archives for "
+msgstr ""
+
+#: inc/breadcrumb.php:154
+msgid "Archives by: "
+msgstr ""
+
+#: inc/breadcrumb.php:159
+msgid "Search results for \""
+msgstr ""
+
+#: inc/breadcrumb.php:163
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/breadcrumb.php:246
+msgid "Split"
+msgstr ""
+
+#: inc/breadcrumb.php:249
+msgid "Merge"
+msgstr ""
+
+#: inc/breadcrumb.php:252 inc/breadcrumb.php:266 inc/breadcrumb.php:286
+msgid "Edit"
+msgstr ""
+
+#: inc/instant-search/instant-search.php:38
+msgid "No result was found."
+msgstr ""
+
+#: inc/instant-search/instant-search.php:53
+msgid "View all results &raquo;"
+msgstr ""
+
+#: inc/instant-search/instant-search.php:72 index.php:20
+#: templates/page-title.php:106
+msgid "Search"
+msgstr ""
+
+#: inc/plugin-activation.php:43
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s. <br>Please delete the plugin "
+"and re-install."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s. <br>Please delete the plugins "
+"listed above and re-install."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/post-likes/post-likes.php:13
+msgid "You already like this"
+msgstr ""
+
+#: inc/post-likes/post-likes.php:104
+msgid "Likes"
+msgstr ""
+
+#: inc/post-shares/post-shares.php:38
+msgid "SHARE"
+msgstr ""
+
+#: inc/post-shares/post-shares.php:113 templates/post-share-box.php:19
+msgid "Shares"
+msgstr ""
+
+#: inc/post-views/post-views.php:74 inc/post-views/post-views.php:126
+#: inc/post-views/post-views.php:151
+msgid "Views"
+msgstr ""
+
+#: inc/post-views/post-views.php:86
+msgid "%s Views"
+msgstr ""
+
+#: inc/review/review.php:228 templates/post-review.php:56
+msgid "%s User ratings"
+msgstr ""
+
+#: inc/simple-page-composer.php:642
+msgid "VIEW"
+msgstr ""
+
+#: inc/template-tags.php:50
+msgid "Page : "
+msgstr ""
+
+#: inc/template-tags.php:249
+msgid "Sticky"
+msgstr ""
+
+#: inc/template-tags.php:259
+msgid "View all posts in %s"
+msgstr ""
+
+#: inc/template-tags.php:486
+msgid "Posts by"
+msgstr ""
+
+#: inc/template-tags.php:503
+msgid "Posts by %s"
+msgstr ""
+
+#: inc/template-tags.php:570
+#: templates/post-loop/post-slide-large-carousel.php:14
+#: templates/post-loop/post-slide-large.php:16
+#: templates/post-loop/post-slide-medium-2.php:16
+#: templates/post-loop/post-slide-medium.php:16
+#: templates/post-loop/post-slide-small.php:12
+#: templates/post-loop/post-slide.php:13
+#: templates/post-loop/post-small-comment.php:8
+#: templates/post-loop/post-small-comment.php:14
+#: templates/post-loop/post-small-left-thumbnail.php:14
+#: templates/post-loop/post-small-top-thumbnail.php:12
+#: templates/post-loop/post-text-no-thumbnail.php:6
+msgid "Permalink to %s"
+msgstr ""
+
+#: inc/template-tags.php:581
+msgid "Comments"
+msgstr ""
+
+#: inc/template-tags.php:779 page.php:30 page_big_featured_image.php:23
+#: single_full_width.php:31
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-tags.php:802
+msgid "Previous"
+msgstr ""
+
+#: inc/template-tags.php:809
+msgid "Next"
+msgstr ""
+
+#: inc/theme-options-mockup.php:17
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: inc/user-profile-fields.php:28 templates/post-share-box.php:29
+msgid "Twitter"
+msgstr ""
+
+#: inc/user-profile-fields.php:29 templates/post-share-box.php:24
+msgid "Facebook"
+msgstr ""
+
+#: inc/user-profile-fields.php:30 templates/post-share-box.php:39
+msgid "Google+"
+msgstr ""
+
+#: inc/user-profile-fields.php:31 templates/post-share-box.php:34
+msgid "Pinterest"
+msgstr ""
+
+#: inc/user-profile-fields.php:32
+msgid "Tumblr"
+msgstr ""
+
+#: inc/user-profile-fields.php:33
+msgid "Instagram"
+msgstr ""
+
+#: inc/user-profile-fields.php:34
+msgid "500px"
+msgstr ""
+
+#: inc/user-profile-fields.php:35
+msgid "Dribbble"
+msgstr ""
+
+#: inc/user-profile-fields.php:36
+msgid "Flickr"
+msgstr ""
+
+#: inc/user-profile-fields.php:37
+msgid "Linkedin"
+msgstr ""
+
+#: inc/user-profile-fields.php:38
+msgid "Skype"
+msgstr ""
+
+#: inc/user-profile-fields.php:39
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/user-profile-fields.php:40
+msgid "Youtube"
+msgstr ""
+
+#: inc/user-profile-fields.php:41
+msgid "Vimeo"
+msgstr ""
+
+#: inc/user-profile-fields.php:42
+msgid "Email"
+msgstr ""
+
+#: inc/woocommerce.php:180 templates/page-title.php:30 woocommerce.php:44
+msgid "Shop"
+msgstr ""
+
+#: inc/woocommerce.php:300
+msgid "View your shopping cart"
+msgstr ""
+
+#: index.php:16 templates/page-title.php:102
+msgid "Search Result for &ldquo;%s&rdquo;"
+msgstr ""
+
+#: index.php:28
+msgid "No posts or pages were found."
+msgstr ""
+
+#: pixelentity-themes-updater/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: pixelentity-themes-updater/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: pixelentity-themes-updater/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: pixelentity-themes-updater/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: single_classic.php:45 single_classic_no_featured_image.php:41
+#: single_full_width.php:37
+msgid "Tags:"
+msgstr ""
+
+#: templates/about-author.php:4
+msgid "The Author"
+msgstr ""
+
+#: templates/more-articles.php:4
+msgid "More Stories"
+msgstr ""
+
+#: templates/page-title.php:44
+msgid "Product"
+msgstr ""
+
+#: templates/page-title.php:71
+msgid "Forums"
+msgstr ""
+
+#: templates/page-title.php:115
+msgid "We Couldn't Find Your Page!"
+msgstr ""
+
+#: templates/page-title.php:121
+msgid "Blog"
+msgstr ""
+
+#: templates/page-title.php:128
+msgid "Archives"
+msgstr ""
+
+#: templates/post-loop/post-large.php:46
+msgid "Read More"
+msgstr ""
+
+#: templates/post-loop/post-small-comment.php:18
+msgid "on %s"
+msgstr ""
+
+#: templates/post-meta-large.php:10 templates/post-meta-large.php:22
+msgid "View all posts by %s"
+msgstr ""
+
+#: templates/post-navigation.php:6 templates/post-navigation.php:15
+msgid "Previous post"
+msgstr ""
+
+#: templates/post-navigation.php:17
+msgid "There is no more story."
+msgstr ""
+
+#: templates/post-navigation.php:27 templates/post-navigation.php:36
+msgid "Next post"
+msgstr ""
+
+#: templates/post-navigation.php:38
+msgid "This is the most recent story."
+msgstr ""
+
+#: templates/post-review.php:12
+msgid "Editor's Rating"
+msgstr ""
+
+#: templates/post-review.php:102
+msgid "PROS"
+msgstr ""
+
+#: templates/post-review.php:107
+msgid "CONS"
+msgstr ""
+
+#: templates/post-share-box.php:22 templates/post-share-icons.php:17
+msgid "Share to Facebook"
+msgstr ""
+
+#: templates/post-share-box.php:27 templates/post-share-icons.php:18
+msgid "Share to Twitter"
+msgstr ""
+
+#: templates/post-share-box.php:32 templates/post-share-icons.php:19
+msgid "Share to Pinterest"
+msgstr ""
+
+#: templates/post-share-box.php:37 templates/post-share-icons.php:20
+msgid "Share to Google+"
+msgstr ""
+
+#: templates/related-posts.php:2
+msgid "Related Posts"
+msgstr ""
+
+#: templates/widgets/categories.php:4
+msgid "View posts in %s"
+msgstr ""
+
+#: templates/widgets/categories.php:12
+msgid "%s Posts"
+msgstr ""
+
+#: widgets/widget-feedburner.php:22
+msgid "Subscribe to feedburner via email"
+msgstr ""
+
+#: widgets/widget-feedburner.php:44
+msgid "Subscribe to our email newsletter."
+msgstr ""
+
+#: widgets/widget-feedburner.php:46
+msgid "Enter your e-mail address"
+msgstr ""
+
+#: widgets/widget-feedburner.php:49
+msgid "Subscribe"
+msgstr ""
+
+#: widgets/widget-latest-comments.php:79
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-latest-comments.php:85
+msgid "Number of comments to show:"
+msgstr ""
+
+#: widgets/widget-login.php:37
+msgid "Welcome %s"
+msgstr ""
+
+#: widgets/widget-login.php:43
+msgid "Dashboard"
+msgstr ""
+
+#: widgets/widget-login.php:44
+msgid "Your Profile"
+msgstr ""
+
+#: widgets/widget-login.php:45
+msgid "Logout"
+msgstr ""
+
+#: widgets/widget-login.php:55
+msgid "Username"
+msgstr ""
+
+#: widgets/widget-login.php:56
+msgid "Password"
+msgstr ""
+
+#: widgets/widget-login.php:58
+msgid "Remember Me"
+msgstr ""
+
+#: widgets/widget-login.php:59
+msgid "Lost your password?"
+msgstr ""
+
+#: widgets/widget-login.php:61
+msgid "Log in"
+msgstr ""
+
+#: widgets/widget-login.php:63
+msgid "Register"
+msgstr ""
+
+#: widgets/widget-popular-post.php:58
+msgid "Week"
+msgstr ""
+
+#: widgets/widget-popular-post.php:59
+msgid "Month"
+msgstr ""
+
+#: widgets/widget-popular-post.php:60
+msgid "All Time"
+msgstr ""
+
+#: widgets/widget-social-counter.php:77
+msgid "Follow our twitter"
+msgstr ""
+
+#: widgets/widget-social-counter.php:80 widgets/widget-social-counter.php:108
+#: widgets/widget-social-counter.php:164 widgets/widget-social-counter.php:178
+#: widgets/widget-social-counter.php:206
+msgid "Followers"
+msgstr ""
+
+#: widgets/widget-social-counter.php:91
+msgid "Like our facebook"
+msgstr ""
+
+#: widgets/widget-social-counter.php:94
+msgid "Fans"
+msgstr ""
+
+#: widgets/widget-social-counter.php:105
+msgid "Follow our instagram"
+msgstr ""
+
+#: widgets/widget-social-counter.php:119
+msgid "Subscribe our youtube"
+msgstr ""
+
+#: widgets/widget-social-counter.php:122 widgets/widget-social-counter.php:150
+msgid "Subscribers"
+msgstr ""
+
+#: widgets/widget-social-counter.php:133
+msgid "+1 our page"
+msgstr ""
+
+#: widgets/widget-social-counter.php:136
+msgid "People"
+msgstr ""
+
+#: widgets/widget-social-counter.php:147
+msgid "Subscribe our page"
+msgstr ""
+
+#: widgets/widget-social-counter.php:161
+msgid "Follow our Soundcloud"
+msgstr ""
+
+#: widgets/widget-social-counter.php:175
+msgid "Follow our pinterest"
+msgstr ""
+
+#: widgets/widget-social-counter.php:189
+msgid "Follow our vk"
+msgstr ""
+
+#: widgets/widget-social-counter.php:192
+msgid "Members"
+msgstr ""
+
+#: widgets/widget-social-counter.php:203
+msgid "Follow our Dribbble"
+msgstr ""
+
+#: woocommerce/single-product/related.php:40
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:39
+msgid "You may also like"
+msgstr ""
+
+#: woocommerce.php:20
+msgid "Products in"
+msgstr ""
+
+#: woocommerce.php:35
+msgid "Products Tagged"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "ESPRESSO"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://envirra.com/themes/espresso"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Magazine WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "envirra"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/envirra?ref=envirra"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Big Featured Image"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "VW Simple Page Composer"
+msgstr ""
+
+#: functions.php:447
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: functions.php:450
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""

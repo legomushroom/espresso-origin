@@ -1,0 +1,47 @@
+[class^="icon-symbol-"], [class*=" icon-symbol-"] {
+  font-family: 'symbol';
+  font-style: normal;
+  font-weight: normal;
+ 
+  /* fix buttons height */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+ 
+.icon-symbol-plus-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe805;&nbsp;'); }
+.icon-symbol-up-dir { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe815;&nbsp;'); }
+.icon-symbol-menu { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe857;&nbsp;'); }
+.icon-symbol-heart-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe84d;&nbsp;'); }
+.icon-symbol-mail-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe855;&nbsp;'); }
+.icon-symbol-cancel-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe84e;&nbsp;'); }
+.icon-symbol-down-small { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe811;&nbsp;'); }
+.icon-symbol-left-small { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe810;&nbsp;'); }
+.icon-symbol-right-small { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80f;&nbsp;'); }
+.icon-symbol-up-small { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe812;&nbsp;'); }
+.icon-symbol-quote { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
+.icon-symbol-plus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
+.icon-symbol-play { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe804;&nbsp;'); }
+.icon-symbol-picture { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
+.icon-symbol-pencil { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe809;&nbsp;'); }
+.icon-symbol-eye { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe808;&nbsp;'); }
+.icon-symbol-headphones { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe850;&nbsp;'); }
+.icon-symbol-align-left { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80a;&nbsp;'); }
+.icon-symbol-align-justify { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-symbol-comment-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe84f;&nbsp;'); }
+.icon-symbol-print { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe853;&nbsp;'); }
+.icon-symbol-down-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80b;&nbsp;'); }
+.icon-symbol-left-open-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe84c;&nbsp;'); }
+.icon-symbol-right-open-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe84a;&nbsp;'); }
+.icon-symbol-up-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80c;&nbsp;'); }
+.icon-symbol-down-open-mini { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80d;&nbsp;'); }
+.icon-symbol-left-open-mini { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe852;&nbsp;'); }
+.icon-symbol-right-open-mini { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe851;&nbsp;'); }
+.icon-symbol-up-open-mini { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80e;&nbsp;'); }
+.icon-symbol-spin3 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe814;&nbsp;'); }
+.icon-symbol-twitter { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe806;&nbsp;'); }
+.icon-symbol-picture-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe813;&nbsp;'); }
+.icon-symbol-phone { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe856;&nbsp;'); }
+.icon-symbol-search { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe807;&nbsp;'); }
+.icon-symbol-link-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe854;&nbsp;'); }

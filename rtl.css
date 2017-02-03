@@ -1,0 +1,9 @@
+body {
+  direction: rtl;
+  unicode-bidi: embed; }
+
+.vw-swiper-arrow-right,
+.vw-swiper-arrow-left,
+.vw-menu .sub-menu-item.menu-item-has-children > .sub-menu-link:after,
+.vw-video-icon-bg {
+  transform: scaleX(-1); }
